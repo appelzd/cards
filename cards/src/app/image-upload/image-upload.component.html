@@ -1,10 +1,5 @@
 <section class="main">
   <section class="">
-      <input type="file" accept="image/*" id="fileUpload" />
-  </section>
-  <section  class="">
-      <div>
-          <button type="submit">Submit</button>
-      </div>
+      <input type="file" accept="image/*" id="fileUpload" #imageUploader (change)="fileChanged(imageUploader)" />
   </section>
 </section>

@@ -12,4 +12,8 @@ export class ImageUploadComponent implements OnInit {
   ngOnInit() {
   }
 
+  public fileChanged(imageUploader)
+  {
+    console.log(imageUploader);
+  }
 }
